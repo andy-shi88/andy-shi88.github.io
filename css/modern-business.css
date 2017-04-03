@@ -37,15 +37,15 @@ header.carousel .carousel-inner {
 
 header.carousel .fill {
     width: 100%;
-    height: 100%;
+    height: inherit;
     background-position: center;
     background-size: cover;
     /*margin-top: -100px;*/
     text-align: center;
 }
-header.carousel .fill video {
+header video {
     width: 100%;
-    height: 450px;
+    height: 100%;
 }
 
 /* 404 Page Styles */
